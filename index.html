@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Kalkulator</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+	<link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/1176/1176238.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="kalkulator">
+			<div class="header">
+				<h4>KALKULATOR</h4>
+				<i class="fa fa-bars fa-lg" onclick="historySection()"></i>
+				<input type="text" id="layar">
+			</div>
+
+			<div class="container-tombol">
+				<span class="tombol operator"> AC </span>
+				<span class="tombol operator">
+					. </span> <span class="tombol operator">
+					< </span> <span class="tombol operator"> /
+				</span>
+				<span class="tombol"> 7 </span>
+				<span class="tombol"> 8 </span>
+				<span class="tombol"> 9 </span>
+				<span class="tombol operator"> * </span>
+				<span class="tombol"> 4 </span>
+				<span class="tombol"> 5 </span>
+				<span class="tombol"> 6 </span>
+				<span class="tombol operator"> + </span>
+				<span class="tombol"> 1 </span>
+				<span class="tombol"> 2 </span>
+				<span class="tombol"> 3 </span>
+				<span class="tombol operator"> - </span>
+				<span class="tombol" id="nol"> 0 </span>
+				<span class="tombol hitung"> = </span>
+			</div>
+		</div>
+		<div class="history">
+			<h4>HISTORY</h4>
+			<div class="history-list-wrapper">
+
+			</div>
+			<i class="fa fa-trash fa-lg" onclick="hapus()"></i>
+		</div>
+	</div>
+
+
+</body>
+<script src="mesin.js"></script>
+
+</html>
